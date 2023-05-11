@@ -1,0 +1,163 @@
+.wrapper {
+    margin: 0 auto;
+    width: 360px;
+    height: 740px;
+    background-color: white;
+    border-radius: 30px;
+}
+.top {
+    width: 360px;
+    height: 160px;
+    position: absolute;
+    background-color: white;
+    border-radius: 30px;
+}
+.bar {
+    width: 330px;
+    height: 35px;
+    margin-left: 15px;
+    position: absolute;
+    background: #A3D0FF;
+    border-radius: 30px 30px 0px 0px;
+}
+.text {
+    margin-top: 175px;
+    margin-left: 80px;
+    color: #115DA9;
+    position: absolute;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: bold;
+}
+.input-keyword .input{
+    width: 320px;
+    margin-top: 220px;
+    margin-left: 20px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 14px;
+    background: whitesmoke;
+    position: absolute;
+    padding-left: 30px;
+}
+i{
+    position: relative;
+    top: 230px;
+    left: 30px;
+    color: #979797;
+}
+::-webkit-input-placeholder{
+    color:#979797;
+}
+.text2{
+    margin-top: 255px;
+    margin-left: 24px;
+    color: #115DA9;
+    position: absolute;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: bold;
+}
+.pertanyaan {
+    width: 320px;
+    color: #115DA9;
+    position: absolute;
+    font-size: 13px;
+    text-align: left;
+    font-family: Inter;
+    font-weight: normal;
+    margin-top: 300px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+}
+.garis {
+    width: 320px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 333px;
+}
+.garis2 {
+    width: 320px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 373px;
+}
+.garis3 {
+    width: 320px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 413px;
+}
+.garis4 {
+    width: 320px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 453px;
+}
+.garis5 {
+    width: 320px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 493px;
+}
+.garis6 {
+    width: 80px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 693px;
+}
+.customer-service {
+    margin-top: 620px;
+    margin-left: 135px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.customer-service1 {
+    margin-top: 540px;
+    margin-left: 120px;
+    width: 225px;
+    height: 145px;
+    position: absolute;
+}
+.customer-service2 {
+    margin-top: 622px;
+    margin-left: 165px;
+    width: 38px;
+    height: 18px;
+    position: absolute; 
+}
+.arrow {
+    margin-top: -15px;
+    margin-left: 276px;
+    width: 20px;
+    height: 22px;
+    position: absolute;  
+}
+.arrow2 {
+    margin-top: -20px;
+    margin-left: 276px;
+    width: 20px;
+    height: 22px;
+    position: absolute;  
+}
+.arrow3 {
+    margin-top: -25px;
+    margin-left: 276px;
+    width: 20px;
+    height: 22px;
+    position: absolute; 
+}
+.back {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 25px;
+    height: 27px;
+    position: absolute;
+}
