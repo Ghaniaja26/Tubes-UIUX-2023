@@ -1,0 +1,450 @@
+.-phone1-pro-x18-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-black);
+}
+.-phone1-pro-x18-i-phone1-pro-x18 {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 40px;
+}
+.-phone1-pro-x18-frame16 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 379px;
+  bottom: 0px;
+  height: 872px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.-phone1-pro-x18-rectangle1 {
+  right: -1px;
+  width: 375px;
+  bottom: 2px;
+  height: 821px;
+  position: absolute;
+}
+.-phone1-pro-x18-rectangle39 {
+  top: 127px;
+  left: 4px;
+  width: 375px;
+  height: 745px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.-phone1-pro-x18-text {
+  top: 97px;
+  left: 43px;
+  color: rgba(255, 255, 255, 1);
+  width: 208px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-back {
+  top: 88px;
+  left: 17px;
+  width: 31px;
+  height: 35px;
+  position: absolute;
+}
+.-phone1-pro-x18-profil {
+  top: 137px;
+  left: 19px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+.-phone1-pro-x18-frame {
+  top: 45px;
+  left: 0px;
+  width: 375px;
+  height: 43px;
+  position: absolute;
+}
+.-phone1-pro-x18-text02 {
+  top: 137px;
+  left: 48px;
+  color: rgba(17, 93, 169, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text04 {
+  top: 186px;
+  left: 4px;
+  color: rgba(17, 93, 169, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text06 {
+  top: 451px;
+  left: 14px;
+  color: rgba(17, 93, 169, 1);
+  width: 103px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text08 {
+  top: 288px;
+  left: 8px;
+  color: rgba(17, 93, 169, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text10 {
+  top: 314px;
+  left: 113px;
+  color: rgba(17, 93, 169, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text12 {
+  top: 398px;
+  left: 13px;
+  color: rgba(17, 93, 169, 1);
+  width: 47px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text14 {
+  top: 157px;
+  left: 48px;
+  color: rgba(194, 194, 194, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text16 {
+  top: 314px;
+  left: 11px;
+  color: rgba(194, 194, 194, 1);
+  width: 38px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-textfield {
+  top: 208px;
+  left: 17px;
+  width: 340px;
+  height: 63px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.-phone1-pro-x18-rectangle11 {
+  top: 0px;
+  left: 0px;
+  width: 340px;
+  height: 55px;
+  position: absolute;
+  border-color: rgba(65, 199, 206, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.-phone1-pro-x18-text18 {
+  top: 7px;
+  color: rgba(17, 93, 169, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text20 {
+  top: 31px;
+  color: rgba(194, 194, 194, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-textfield1 {
+  top: 477px;
+  left: 18px;
+  width: 95px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.-phone1-pro-x18-rectangle111 {
+  top: 0px;
+  left: 0px;
+  width: 95px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.-phone1-pro-x18-rectangle12 {
+  top: 0px;
+  left: 0px;
+  width: 108px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.-phone1-pro-x18-text22 {
+  top: 12px;
+  left: 13px;
+  color: rgba(0, 0, 0, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-rectangle13 {
+  top: 477px;
+  left: 136px;
+  width: 108px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.-phone1-pro-x18-text24 {
+  top: 482px;
+  left: 154px;
+  color: rgba(17, 93, 169, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-rectangle121 {
+  top: 477px;
+  left: 254px;
+  width: 108px;
+  height: 41px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.-phone1-pro-x18-text26 {
+  top: 488px;
+  left: 272px;
+  color: rgba(17, 93, 169, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-group6 {
+  top: 553px;
+  left: 29px;
+  width: 331px;
+  height: 42px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(194, 194, 194, 1);
+}
+.-phone1-pro-x18-text28 {
+  top: 11.760000228881836px;
+  left: 114.0111083984375px;
+  color: rgba(255, 255, 255, 1);
+  width: 103px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-rectangle29 {
+  top: 348px;
+  left: 49px;
+  width: 291px;
+  height: 160px;
+  position: absolute;
+  border-radius: 20px;
+}
+.-phone1-pro-x18-group61 {
+  top: 465px;
+  left: 137px;
+  width: 110px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(17, 93, 169, 1);
+}
+.-phone1-pro-x18-text30 {
+  top: 8px;
+  left: 34px;
+  color: rgba(255, 255, 255, 1);
+  width: 45px;
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-text32 {
+  top: 364px;
+  left: 49px;
+  color: rgba(17, 93, 169, 1);
+  width: 279px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.-phone1-pro-x18-image17 {
+  top: 93px;
+  left: 335px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
