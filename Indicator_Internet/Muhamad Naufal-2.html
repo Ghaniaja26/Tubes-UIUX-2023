@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<style>
+    .body{
+        background-color: #394867;
+    }
+    .box1{
+        width : 380px;
+        height : 790px;
+        background : rgba(17, 93, 169, 1);
+        margin-left : auto;
+        margin-right : auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius : 25px 25px 25px 25px;
+        top : 200px;
+        bottom : 200px;
+    }
+    .box2{
+        top : -20px;
+        left : 580px;
+        margin-top: 87px;
+        width: 380px;
+        height: 790px;
+        border-radius: 25px 25px 25px 25px;
+        position : absolute;
+        /* box-shadow: 0px 4px 4px 0px white ; */
+      
+    }
+    .transferKeRekeningText {
+        top: 62px;
+        left : 630px;
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        position: absolute;
+        font-size: 15px;
+        font-style: Bold;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .buttonBack{
+        top : 50px;
+        left : 590px;
+        height: auto;
+        position: absolute;
+    }
+    .frame {
+        top: 10px;
+        left: 580px;
+        width: 375px;
+        height: 43px;
+        position: absolute;
+    }
+    .indikatorJaringanMerah {
+        top: 62px;
+        left: 900px;
+        width: 14px;
+        height: 14px;
+        position: absolute;
+    }
+    .profilePict {
+        top: 110px;
+        left: 605px;
+        width: 35px;
+        height: 35px;
+        position : absolute;
+    }
+    .ProfileName {
+        top: 110px;
+        left: 635px;
+        color: rgba(17, 93, 169, 1);
+        width: 172px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Bold;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .DariRekeningText {
+        top: 160px;
+        left : 595px;
+        color: rgba(17, 93, 169, 1);
+        width: 119px;
+        height: auto;
+        position: absolute;
+        font-size: 13px;
+        font-style: Bold;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .WaktuTransferText {
+        top: 406px;
+        left: 612px;
+        color: rgba(17, 93, 169, 1);
+        width: 103px;
+        height: auto;
+        position: absolute;
+        font-size: 13px;
+        font-style: Bold;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .MataUangText {
+        top: 243px;
+        left: 600px;
+        color: rgba(17, 93, 169, 1);
+        width: 94px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .Text28000{
+        top: 269px;
+        left: 728px;
+        color: rgba(17, 93, 169, 1);
+        width: 61px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .beritaText {
+        top: 353px;
+        left: 610px;
+        color: rgba(17, 93, 169, 1);
+        width: 47px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .Norekening{
+        top: 130px;
+        left: 638px;
+        color: rgba(194, 194, 194, 1);
+        width: 125px;
+        height: auto;
+        position: absolute;
+        font-size: 12px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .-phone1-pro-x8-textfield {
+        top: 163px;
+        left: 298px;
+        width: 340px;
+        height: 63px;
+        display: flex;
+        position: absolute;
+        align-items: flex-start;
+        flex-shrink: 0;
+        filter: blur(1.2px);
+    }
+    .-phone1-pro-x8-rectangle11 {
+        top: 0px;
+        left: 298px;
+        width: 340px;
+        height: 55px;
+        position: absolute;
+        border-color: rgba(65, 199, 206, 1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        filter: blur(1.2px);
+    }
+    .-phone1-pro-x8-text18 {
+        top: 7px;
+        left : 298px;
+        color: rgba(17, 93, 169, 1);
+        width: 129px;
+        height: auto;
+        position: absolute;
+        font-size: 13px;
+        font-style: Bold;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+    }
+    .-phone1-pro-x8-text20 {
+        top: 31px;
+        left : 298px;
+        color: rgba(194, 194, 194, 1);
+        width: 125px;
+        height: auto;
+        position: absolute;
+        font-size: 12px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+    }
+    .IDRText {
+        top: 269px;
+        left: 604px;
+        color: rgba(194, 194, 194, 1);
+        width: 38px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Bold;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .KotakSekarang {
+        top: 432px;
+        left: 14px;
+        width: 95px;
+        height: 47px;
+        display: flex;
+        position: absolute;
+        align-items: flex-start;
+        flex-shrink: 0;
+        filter: blur(1.2px);
+    }
+
+    .BagianKotakSekarang {
+        top: 0px;
+        left: 590px;
+        width: 108px;
+        height: 41px;
+        position: absolute;
+        border-color: rgba(194, 194, 194, 1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        filter: blur(1.2px);
+    }
+    .textSekarang {
+        top: 12px;
+        left: 603px;
+        color: rgba(0, 0, 0, 1);
+        width: 82px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+    }
+    .line1{
+        top : 280px;
+        left : 610px;
+        width: 75px;
+        position: absolute;
+        border-color :#D9D9D9;
+        filter: blur(1.2px);
+    }
+    .line2{
+        top : 280px;
+        left : 727px;
+        width: 200px;
+        position: absolute;
+        border-color :#D9D9D9;
+        filter: blur(1.2px);
+    }
+    .line3{
+        top : 365px;
+        left : 614px;
+        width: 315px;
+        position: absolute;
+        border-color :#D9D9D9;
+        filter: blur(1.2px);
+    }
+    .-phone1-pro-x8-back1 {
+        top: 265px;
+        left: 665px;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        filter: blur(1.2px);
+ 
+    }
+    .kotakLanjut{
+        top: 525px;
+        left: 605px;
+        width: 331px;
+        height: 42px;
+        display: flex;
+        position: absolute;
+        align-items: flex-start;
+        flex-shrink: 1;
+        background-color: rgba(194, 194, 194, 1);
+        border-radius: 8px 8px 8px 8px;
+        filter: blur(1.2px);
+    }
+    .-phone1-pro-x8-text28 {
+        top: 11.760000228881836px;
+        left: 114.0111083984375px;
+        color: rgba(255, 255, 255, 1);
+        width: 103px;
+        height: auto;
+        position: absolute;
+        font-size: 18px;
+        font-style: Bold;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+    }
+    .-phone1-pro-x8-text24 {
+        top: 437px;
+        left: 150px;
+        color: rgba(17, 93, 169, 1);
+        width: 71px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .KotakAturTanggal {
+        top: 432px;
+        left: 721px;
+        width: 108px;
+        height: 41px;
+        position: absolute;
+        border-color: rgba(194, 194, 194, 1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        filter: blur(1.2px);
+    }
+    .TextAturTanggal {
+        top: 437px;
+        left: 738px;
+        color: rgba(17, 93, 169, 1);
+        width: 71px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .-phone1-pro-x8-rectangle121 {
+        top: 432px;
+        left: 835px;
+        width: 108px;
+        height: 41px;
+        position: absolute;
+        border-color: rgba(194, 194, 194, 1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        filter: blur(1.2px);
+    }
+    .-phone1-pro-x8-text26 {
+        top: 443px;
+        left: 853px;
+        color: rgba(17, 93, 169, 1);
+        width: 71px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Regular;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+        filter: blur(1.2px);
+    }
+    .line4{
+        top : 800px;
+        left : 720px;
+        width: 100px;
+        height : 2px;
+        position: absolute;
+        background-color: #C2C2C2;
+        border-color : solid #C2C2C2;
+    }
+    .-phone1-pro-x11-svg {
+        top: 64px;
+        left: 870px;
+        width: 24px;
+        height: 19px;
+        position: absolute;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    }
+    .-phone1-pro-x11-rectangle40 {
+        top: 51px;
+        left: 620px;
+        width: 264px;
+        height: 119px;
+        position: absolute;
+        border-radius: 20px;
+    }
+    .-phone1-pro-x11-text30 {
+        top: 58px;
+        left: 630px;
+        color: rgba(17, 93, 169, 1);
+        width: 264px;
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: Bold;
+        text-align: left;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+    }
+    .-phone1-pro-x11-text31 {
+        font-weight: 700;
+    }
+</style>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+data-tag="font"
+/>
+<link rel="stylesheet" href="./style.css" />
+<html lang="english">
+    <head>
+        <title>Muhamad Naufal-2</title>
+    </head>
+
+    <body class = "body">
+        <div class = "box1" rel="stylesheet">
+            <img
+            alt="Frame1536"
+            src="public/playground_assets/frame1536-dgxh.svg"
+            class="frame"
+            />
+            <img
+            alt="back1535"
+            src="public/playground_assets/back1535-x7b-200w.png"
+            class = "buttonBack"
+            />
+            <span class="transferKeRekeningText">
+                <span>Transfer ke Rekening BCA</span>
+            </span>
+            <img
+                alt="indikatorjaringanmerah1536"
+                src="public/playground_assets/indikatorjaringanmerah1536-xqw-200h.png"
+                class="indikatorJaringanMerah"
+            />
+            <img
+                alt="Rectangle391535"
+                src="public/playground_assets/rectangle391535-ikac.svg"
+                class="box2"
+            />
+            <img
+                alt="profil1536"
+                src="public/playground_assets/profil1536-eoa9-200h.png"
+                class="profilePict"
+            />
+            <span class="ProfileName">
+                <span>MUHAMMAD FADHIL</span>
+            </span>
+            <span class="Norekening">
+                <span>1393203017 - IDR</span>
+            </span>
+            <span class="DariRekeningText"><span>Dari Rekening</span></span>
+            <div class="-phone1-pro-x8-textfield">
+                <img
+                  alt="Rectangle111538"
+                  src="public/playground_assets/rectangle111538-ih9-200h.png"
+                  class="-phone1-pro-x8-rectangle11"
+                />
+                <span class="-phone1-pro-x8-text18">
+                  <span>139 - 264 - 1470</span>
+                </span>
+                <span class="-phone1-pro-x8-text20">
+                  <span>TAHAPAN XPRESI</span>
+                </span>
+              </div>
+            <span class= "WaktuTransferText"><span>Waktu Transfer</span></span>
+            <span class="MataUangText"><span>Mata Uang</span></span>
+            <span class="IDRText"><span>IDR</span></span>
+            <img
+                alt="back1536"
+                src="public/playground_assets/back1536-uasc-200w.png"
+                class="-phone1-pro-x8-back1"
+            />
+            <hr class ="line1">
+            <span class="Text28000"><span>28,000.00</span></span>
+            <hr class = "line2">
+            <span class="beritaText"><span>Berita</span></span>
+            <hr class = "line3">
+            <div class="KotakSekarang">
+                <img
+                  alt="Rectangle121538"
+                  src="public/playground_assets/rectangle121538-rccy-200h.png"
+                  class="BagianKotakSekarang"
+                />
+                <span class="textSekarang"><span>SEKARANG</span></span>
+            </div> 
+            <div>
+                <img
+                    alt="Rectangle131539"
+                    src="public/playground_assets/rectangle131539-6hh-200h.png"
+                    class="KotakAturTanggal"
+                />
+                <span class="TextAturTanggal">
+                    <span>ATUR TANGGAL</span>
+                </span>
+            </div>
+            <div>
+                <img
+                alt="Rectangle121539"
+                src="public/playground_assets/rectangle121539-pvs8-200h.png"
+                class="-phone1-pro-x8-rectangle121"
+                 />
+                <span class="-phone1-pro-x8-text26">
+                    <span>BERKALA</span>
+                </span>
+            </div>
+            <div class="kotakLanjut">
+                <span class="-phone1-pro-x8-text28"><span>Lanjut</span></span>
+            </div>
+            <hr class ="line4">
+            <img
+            alt="SVG1819"
+            src="public/playground_assets/svg1819-a0hh.svg"
+            class="-phone1-pro-x11-svg"
+            />
+            <img
+                alt="Rectangle401819"
+                src="public/playground_assets/rectangle401819-m3od-200h.png"
+                class="-phone1-pro-x11-rectangle40"
+            />
+            <span class="-phone1-pro-x11-text30">
+                <span class="-phone1-pro-x11-text31">
+                <span>Status Internet</span>
+                <br />
+                <span></span>
+                <br />
+                <span></span>
+                </span>
+                <span>
+                Indikator hijau untuk menandakan kondisi jaringan internetmu baik,
+                sedangkan merah apabila jaringan internetmu buruk
+                </span>
+            </span>
+        </div>
+    </body>
+</html>
