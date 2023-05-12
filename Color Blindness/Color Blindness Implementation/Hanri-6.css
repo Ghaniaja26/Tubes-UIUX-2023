@@ -176,9 +176,9 @@
   flex-shrink: 1;
 }
 .-phone1-pro-x19-rectangle41 {
-  top: 0px;
-  left: 62px;
-  width: 380px;
+  top: -1px;
+  right: 2px;
+  width: 375px;
   height: 36px;
   position: absolute;
 }
@@ -382,7 +382,7 @@
   text-decoration: none;
 }
 .-phone1-pro-x19-left1 {
-  top: 142px;
+  top: 145px;
   right: 23px;
   width: 19,96px;
   height: 15,88px;

@@ -44,6 +44,13 @@
   height: 745px;
   position: absolute;
 }
+.-phone1-pro-x17-back {
+  top: 316px;
+  left: 77px;
+  width: 14px;
+  height: 13px;
+  position: absolute;
+}
 .-phone1-pro-x17-text {
   top: 97px;
   left: 39px;
@@ -60,7 +67,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.-phone1-pro-x17-back {
+.-phone1-pro-x17-back1 {
   top: 88px;
   left: 13px;
   width: 31px;

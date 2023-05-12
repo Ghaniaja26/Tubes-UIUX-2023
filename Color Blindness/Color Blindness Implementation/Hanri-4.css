@@ -45,6 +45,13 @@
   position: absolute;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
 }
+.-phone1-pro-x18-back {
+  top: 316px;
+  left: 77px;
+  width: 14px;
+  height: 13px;
+  position: absolute;
+}
 .-phone1-pro-x18-text {
   top: 97px;
   left: 43px;
@@ -61,7 +68,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.-phone1-pro-x18-back {
+.-phone1-pro-x18-back1 {
   top: 88px;
   left: 17px;
   width: 31px;
